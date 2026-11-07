@@ -22,6 +22,8 @@ def filter_momo_batch(payload_batch):
     
         # Routing decision engine (Kept INSIDE the loop block via indentation)
         if is_structurally_sound and is_within_limit and is_valid_network:
+            fee = 0.05 * record["amount"]
+            record["amount"] = record["amount"] - fee 
             ingested_vault.append(record)
         else:
             dead_letter_queue.append(record)
@@ -50,3 +52,6 @@ if __name__ == "__main__":
     print("PIPELINE ROUTING OPERATION COMPLETE:")
     print(f"Clean Vault Records Ingested: {len(pipeline_result['ingested_vault'])}")
     print(f"Dirty Records Isolated in DLQ: {len(pipeline_result['dead_letter_queue'])}")
+
+    if len(pipeline_result['ingested_vault']) > 0:
+        print(f"Verified Post-Tax Amount for ACC_01: {pipeline_result['ingested_vault'][0]['amount']} GHS")
