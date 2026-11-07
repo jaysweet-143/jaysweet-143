@@ -1,8 +1,6 @@
-# ==============================================================================
 # PROJECT: Automated Inbound Transaction Router Engine
 # SKILL DISCIPLINE: Programmatic Thinking, Boolean Logic & Data Validation
 # SYSTEM ARCHITECTURE: Edge Logic Shield / Dead Letter Queue (DLQ) Router
-# ==============================================================================
 
 def execute_data_router_lifecycle(transaction_payload):
     """
@@ -58,9 +56,7 @@ def execute_data_router_lifecycle(transaction_payload):
     return "ROUTING_COMPLETE"
 
 
-# ==============================================================================
 # SYSTEM TEST BENCH (Simulating messy real-world inbound API payloads)
-# ==============================================================================
 if __name__ == "__main__":
     
     # Mocking a live financial data stream coming from an upstream API
