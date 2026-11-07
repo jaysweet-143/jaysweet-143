@@ -1,3 +1,7 @@
+# PROJECT: Mobile Money Inbound Validation Logic Shield
+# SKILL DISCIPLINE: Programmatic Thinking, Boolean Logic & State Mutation
+# SYSTEM ARCHITECTURE: Edge Logic Shield / Dead Letter Queue (DLQ) Router
+
 def filter_momo_batch(payload_batch):
     # Gate 1: Check if the inbound payload batch list has zero items
     if len(payload_batch) == 0:
