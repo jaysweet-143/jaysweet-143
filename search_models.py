@@ -1,3 +1,7 @@
+# PROJECT: Distributed Ingest Scanning & Binary Search Optimization
+# SKILL DISCIPLINE: Algorithmic Engineering, Performance Engineering & Search Models
+# SYSTEM ARCHITECTURE: Divide and Conquer / Binary Memory-Pointer Array Grid
+
 def execute_binary_search(sorted_vault, target_amount):
     low_index = 0
     high_index = len(sorted_vault) - 1
