@@ -1,4 +1,4 @@
-Hi there, I'm Jane Ashon. 👋
+Hi there, I'm Jane Dellis Nana Ama Ashon. 👋
 
 I am a final-year Computer Science student passionate about data systems, automated transaction workflows, and technical system design.
 
