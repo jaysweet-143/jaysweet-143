@@ -8,7 +8,6 @@
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=jaysweet-143&label=Profile+Views&color=1f6feb&style=flat-square)
 ![Location](https://img.shields.io/badge/Based%20in-Accra%2C%20Ghana-0d1117?style=flat-square&logo=googlemaps&logoColor=58a6ff)
 ![Status](https://img.shields.io/badge/Focus-Data%20Engineering-1f6feb?style=flat-square)
 
