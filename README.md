@@ -58,18 +58,6 @@ I work best with a clear head and a quiet workspace, delivering tidy code, reada
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=jaysweet-143&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&include_all_commits=true"/>
-<img height="180" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaysweet-143&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff"/>
-
-<img alt="GitHub streak" src="https://streak-stats.demolab.com/?user=jaysweet-143&theme=github-dark-blue&hide_border=true&background=0d1117"/>
-
-</div>
-
----
 
 ## 🚀 Recent Work
 
