@@ -1,0 +1,6 @@
+'XX' METRICS RUN MANIFEST REPORT
+----------------------------------
+Total Stream Events Evaluated: 5
+Clean Vault Records Ingested: 3
+Corrupted Records Isolated in DLQ: 2
+Critical SRE Latency SLA Violations: 1
