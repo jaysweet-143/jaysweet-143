@@ -68,12 +68,17 @@ walmart-heap/
    javac PowerOfTwoMaxHeap.java
    ```
 
-3. Use the heap in your application or test runner:
+3. Run the built-in test suite:
 
-   ```java
-   // Creates a max heap where each parent has 2^2 = 4 children
-   PowerOfTwoMaxHeap shippingQueue = new PowerOfTwoMaxHeap(2);
-   shippingQueue.insert(90);
-   shippingQueue.insert(95);
-   int topPriority = shippingQueue.popMax(); // Returns 95
+   ```bash
+   java PowerOfTwoMaxHeap
    ```
+
+### Expected Output
+```text
+Small exponent max (expected 50): 50
+Next max (expected 30): 30
+Medium exponent max (expected 95): 95
+Next max (expected 90): 90
+Large exponent max (expected 500): 500
+```
