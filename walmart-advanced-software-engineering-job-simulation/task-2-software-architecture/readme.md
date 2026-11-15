@@ -14,6 +14,7 @@ A modular UML class architecture for a data processing pipeline that can switch 
 - [Project Structure](#project-structure)
 
 ## Architectural Overview
+![Data Processor UML Architecture](./data-processor-architecture.png)
 
 Hardcoding `if/else` logic for every combination of processing mode and database target makes a pipeline rigid and hard to maintain, because each new option multiplies the branches that must be updated.
 
